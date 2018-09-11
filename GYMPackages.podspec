@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GYMPackages"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Packages For Common classes."
 
   # This description is used to generate tags and improve search results.
@@ -126,5 +126,10 @@ Package private framework for common classes
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "SDWebImage"
+  s.dependency "MBProgressHUD"
+  s.dependency "AFNetworking"
+  s.dependency "FMDB"
+
 
 end
