@@ -126,10 +126,10 @@ Package private framework for common classes
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "SDWebImage"
-  s.dependency "MBProgressHUD"
-  s.dependency "AFNetworking"
-  s.dependency "FMDB"
+  s.dependency "SDWebImage", "~> 4.4.2"
+  s.dependency "MBProgressHUD", "~> 1.1.0"
+  s.dependency "AFNetworking", "~> 3.2.1"
+  s.dependency "FMDB", "~> 2.7.2"
 
 
 end
